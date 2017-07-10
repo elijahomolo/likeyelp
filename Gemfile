@@ -63,3 +63,5 @@ gem 'carrierwave'
 gem 'fog'
 
 gem 'figaro'
+
+gem 'devise'
