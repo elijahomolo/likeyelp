@@ -8,17 +8,18 @@
         <li><%= message %></li>
       <% end %>
       </ul>
+
     </div>
   <% end %>
 
-  <div class="form-group", class: "form-control" >
+  <div class="form-group" >
     <%= f.label :rating %>
-    <%= f.number_field :rating %>
+    <%= f.number_field :rating, class: s"form-control" %>
   </div>
 
-  <div class="form-group", class: "form-control" >
+  <div class="form-group" >
     <%= f.label :comment %>
-    <%= f.text_area :comment %>
+    <%= f.text_area :comment, class: "form-control" %>
   </div>
 
   <div class="form-group">
