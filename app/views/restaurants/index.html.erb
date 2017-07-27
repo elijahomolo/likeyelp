@@ -32,6 +32,8 @@
 
 <br>
 
-<%= link_to 'New Restaurant', new_restaurant_path %>
+<% if user_signed_in? && current_user.admin? %>
+<%= link_to 'New Restaurant', new_restaurant_path, class: "btn btn-link" %>
+<% end %>
 
 <%= image_tag "https://s3-media2.fl.yelpcdn.com/assets/srv0/yelp_styleguide/573fa19c8435/assets/img/structural/footer_cityscape.png" %>
