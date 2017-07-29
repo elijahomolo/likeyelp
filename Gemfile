@@ -65,3 +65,9 @@ gem 'fog'
 gem 'figaro'
 
 gem 'devise'
+
+gem 'searchkick'
+
+gem 'elasticsearch-rails'
+
+gem 'elasticsearch-model'
